@@ -14,7 +14,7 @@ scene.add(light);
 // Load and display the 3D model
 const loader = new THREE.OBJLoader();
 loader.load(
-  'C:/Users/Lenovo/Documents/WeChat Files/wxid_is0ytlo9obt422/FileStorage/File/2023-03/clothes.obj', // Replace this with the path to your obj model
+  './my_3d/clothes.obj', // Replace this with the path to your obj model
   function (obj) {
     scene.add(obj.scene);
   },
